@@ -1,0 +1,59 @@
+/* Center the heading and make it more attractive */
+.heading {
+    background-color: #f0f8ff; /* Light background color for a softer look */
+    color: #333; /* Dark text color for good contrast */
+    padding: 15px 20px; /* Moderate padding for a balanced look */
+    text-align: center;
+    border-radius: 8px; /* Slightly rounded corners */
+    font-size: 24px; /* Slightly smaller font size */
+    font-weight: 600; /* Semi-bold text */
+    margin: 20px auto; /* Center the heading with some margin above and below */
+    max-width: 70%; /* Adjusted width for a more compact look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a gentle effect */
+    border: 1px solid #ddd; /* Light border for a clean outline */
+}
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the action buttons */
+  button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Style links */
+  a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

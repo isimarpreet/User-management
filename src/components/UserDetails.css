@@ -1,0 +1,77 @@
+/* UserDetails.css */
+
+.user-details {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.user-details h1 {
+  font-size:  28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-details table, 
+.user-details th, 
+.user-details td {
+  border: 1px solid #ddd;
+}
+
+.user-details th, 
+.user-details td {
+  padding: 12px;
+  text-align: left;
+}
+
+.user-details th {
+  background-color: #94ade4;
+  color: white;
+  font-size: 18px;
+}
+
+.user-details td {
+  background-color: #f1f1f1;
+}
+
+.user-details .button-container {
+  text-align: center;
+}
+
+.user-details .button-container a,
+.user-details .button-container button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-details .button-container a:hover,
+.user-details .button-container button:hover {
+  background-color: #0056b3;
+}
+
+.user-details .button-container button {
+  background-color: #dc3545;
+}
+
+.user-details .button-container button:hover {
+  background-color: #c82333;
+}
